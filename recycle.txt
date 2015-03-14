@@ -1,0 +1,56 @@
+aluminum can
+aluminum foil
+aluminum tray
+bottle cap
+steel can lid
+tin can lid
+jar lid
+paint can
+spray can
+steel can
+tin can
+plastic bottle
+plastic bucket
+CD
+DVD
+CDROM
+CD case
+DVD case
+CDROM case
+coffee cup lid
+plastic container
+clamshell
+plastic cork
+plastic cup
+plastic plates
+plastic flower pot
+plastic tray
+laundry detergent bottle
+molded plastic packaging
+toy
+plastic tub
+plastic lid
+yogurt container
+tupperware
+plastic utensil
+plastic bag
+cardboard
+cereal box
+paperboard
+computer paper
+office paper
+egg carton
+envelope
+mail
+magazine
+newspaper
+packing paper
+kraft paper
+phonebook
+sticky note
+shredded paper
+wrapping paper
+glass bottle
+glass jar
+metal cap
+metal lid
