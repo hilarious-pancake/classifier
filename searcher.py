@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 
-import flickrapi, unirest, time, os
+import flickrapi, unirest, time
 
 api_key = u'bd357bbf22b783cd194d9585e495e0a4'
 api_secret = u'8be92d6e6304428a'
 
 flickr = flickrapi.FlickrAPI(api_key, api_secret)
-
-# open_file('recycle.txt')
 
 def open_file(filename):
   # read file line by line into a list
@@ -18,6 +16,7 @@ def open_file(filename):
   items = [x.strip('\n') for x in items]
 
   for item in items:
+    print item
     # search for query
     search_flickr(item)
 
@@ -34,8 +33,13 @@ def search_flickr(query):
       '.staticflickr.com/' + attributes['server'] + '/' +
       attributes['id'] + '_' + attributes['secret'] + '_m.jpg')
 
+  #descriptions = []
+
   for url in photo_urls:
     read_image(url)
+
+  # for desc in descriptions:
+  #   save_description(desc)
 
 def read_image(photo_url):
   post_res = unirest.post("https://camfind.p.mashape.com/image_requests",
@@ -73,7 +77,76 @@ def check_res(token):
 def get_description(token):
   description = check_res(token)
 
-  if description.body.has_key('name') == False:
+  if not description.body.has_key('name'):
     description = check_res(token)
 
-  return description.body['name']
+  print description.body
+
+  if description.body.has_key('reason'):
+    return 'skipped'
+  else:
+    return save_description(description.body['name'])
+
+def save_description(desc):
+  with open('links.txt', 'a') as f:
+    f.write(desc + '\n')
+
+# COMPLETED
+# aluminum can
+# aluminum foil
+# aluminum tray
+# bottle cap
+# steel can lid
+
+# TO DO
+# tin can lid
+# jar lid
+# paint can
+# spray can
+# steel can
+# tin can
+# plastic bottle
+# plastic bucket
+# CD
+# DVD
+# CDROM
+# CD case
+# DVD case
+# CDROM case
+# coffee cup lid
+# plastic container
+# clamshell
+# plastic cork
+# plastic cup
+# plastic plates
+# plastic flower pot
+# plastic tray
+# laundry detergent bottle
+# molded plastic packaging
+# toy
+# plastic tub
+# plastic lid
+# yogurt container
+# tupperware
+# plastic utensil
+# plastic bag
+# cardboard
+# cereal box
+# paperboard
+# computer paper
+# office paper
+# egg carton
+# envelope
+# mail
+# magazine
+# newspaper
+# packing paper
+# kraft paper
+# phonebook
+# sticky note
+# shredded paper
+# wrapping paper
+# glass bottle
+# glass jar
+# metal cap
+# metal lid
