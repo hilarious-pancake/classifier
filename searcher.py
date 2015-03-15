@@ -27,19 +27,14 @@ def search_flickr(query):
   photo_urls = []
 
   # parse photo data
-  for i in range(0, 10):
+  for i in range(0, 5):
     attributes = photos[0][i].attrib
     photo_urls.append('https://farm' + attributes['farm'] +
       '.staticflickr.com/' + attributes['server'] + '/' +
       attributes['id'] + '_' + attributes['secret'] + '_m.jpg')
 
-  #descriptions = []
-
   for url in photo_urls:
     read_image(url)
-
-  # for desc in descriptions:
-  #   save_description(desc)
 
 def read_image(photo_url):
   post_res = unirest.post("https://camfind.p.mashape.com/image_requests",
@@ -57,10 +52,11 @@ def read_image(photo_url):
       "image_request[locale]": "en_US",
       "image_request[longitude]": "14.3583203002251",
       "image_request[remote_image_url]": photo_url
-    }
+    },
+    callback = get_description(post_res.body['token'])
   )
   
-  return get_description(post_res.body['token'])
+  # return get_description(post_res.body['token'])
 
 def check_res(token):
   time.sleep(20)
@@ -75,6 +71,15 @@ def check_res(token):
   return response
 
 def get_description(token):
+  time.sleep(20)
+  
+  description = unirest.get("https://camfind.p.mashape.com/image_responses/" + token,
+    headers = {
+      "X-Mashape-Key": "6qRcLmRhtpmshHUnKZhr35Tkpf4Ep18I4HbjsndLZjL7cUMrwt",
+      "Accept": "application/json"
+    }
+  )
+
   description = check_res(token)
 
   if not description.body.has_key('name'):
@@ -97,8 +102,6 @@ def save_description(desc):
 # aluminum tray
 # bottle cap
 # steel can lid
-
-# TO DO
 # tin can lid
 # jar lid
 # paint can
@@ -120,6 +123,9 @@ def save_description(desc):
 # plastic cup
 # plastic plates
 # plastic flower pot
+
+# TO DO
+
 # plastic tray
 # laundry detergent bottle
 # molded plastic packaging
