@@ -27,7 +27,7 @@ def search_flickr(query):
   photo_urls = []
 
   # parse photo data
-  for i in range(0, 5):
+  for i in range(0, 2):
     attributes = photos[0][i].attrib
     photo_urls.append('https://farm' + attributes['farm'] +
       '.staticflickr.com/' + attributes['server'] + '/' +
@@ -39,7 +39,7 @@ def search_flickr(query):
 def read_image(photo_url):
   post_res = unirest.post("https://camfind.p.mashape.com/image_requests",
     headers = {
-      "X-Mashape-Key": "6qRcLmRhtpmshHUnKZhr35Tkpf4Ep18I4HbjsndLZjL7cUMrwt",
+      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
       "Content-Type": "application/x-www-form-urlencoded",
       "Accept": "application/json"
     },
@@ -52,18 +52,18 @@ def read_image(photo_url):
       "image_request[locale]": "en_US",
       "image_request[longitude]": "14.3583203002251",
       "image_request[remote_image_url]": photo_url
-    },
-    callback = get_description(post_res.body['token'])
+    }
+    # callback = get_description(response.body['token'])
   )
   
-  # return get_description(post_res.body['token'])
+  return get_description(post_res.body['token'])
 
 def check_res(token):
   time.sleep(20)
   
   response = unirest.get("https://camfind.p.mashape.com/image_responses/" + token,
     headers = {
-      "X-Mashape-Key": "6qRcLmRhtpmshHUnKZhr35Tkpf4Ep18I4HbjsndLZjL7cUMrwt",
+      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
       "Accept": "application/json"
     }
   )
@@ -75,7 +75,7 @@ def get_description(token):
   
   description = unirest.get("https://camfind.p.mashape.com/image_responses/" + token,
     headers = {
-      "X-Mashape-Key": "6qRcLmRhtpmshHUnKZhr35Tkpf4Ep18I4HbjsndLZjL7cUMrwt",
+      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
       "Accept": "application/json"
     }
   )
@@ -93,7 +93,7 @@ def get_description(token):
     return save_description(description.body['name'])
 
 def save_description(desc):
-  with open('links.txt', 'a') as f:
+  with open('compost-desc.txt', 'a') as f:
     f.write(desc + '\n')
 
 # COMPLETED
@@ -123,9 +123,6 @@ def save_description(desc):
 # plastic cup
 # plastic plates
 # plastic flower pot
-
-# TO DO
-
 # plastic tray
 # laundry detergent bottle
 # molded plastic packaging
@@ -156,3 +153,54 @@ def save_description(desc):
 # glass jar
 # metal cap
 # metal lid
+#
+# bread
+# grains
+# pasta
+# coffee grounds
+# coffee filter
+# dairy
+# eggshells
+# eggs
+# fruit
+# fruit pits
+# fruit shells
+# leftovers
+# spoiled food
+# meat
+# meat bones
+# seafood
+# shellfish
+# tea
+# vegetable
+# pizza box
+# paper cup
+# paper plate
+# paper ice cream container
+# paper napkin
+# paper tissue
+# paper towel
+# paper take-out box
+# tissues
+# milk carton
+# juice carton
+# branches
+# brush
+# flowers
+# floral trimmings
+# grasses
+# weeds
+# leaves
+# tree trimmings
+# cotton balls
+# cotton swabs
+# hair
+# fur
+# feathers
+# vegetable wood crates
+# waxed cardboard
+# waxed paper
+# wood
+# wooden chopsticks
+
+# TO DO
