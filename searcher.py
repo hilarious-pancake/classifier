@@ -44,16 +44,9 @@ def read_image(photo_url):
       "Accept": "application/json"
     },
     params = {
-      "focus[x]": "480",
-      "focus[y]": "640",
-      "image_request[altitude]": "27.912109375",
-      "image_request[language]": "en",
-      "image_request[latitude]": "35.8714220766008",
       "image_request[locale]": "en_US",
-      "image_request[longitude]": "14.3583203002251",
       "image_request[remote_image_url]": photo_url
     }
-    # callback = get_description(response.body['token'])
   )
   
   return get_description(post_res.body['token'])
@@ -93,7 +86,7 @@ def get_description(token):
     return save_description(description.body['name'])
 
 def save_description(desc):
-  with open('compost-desc.txt', 'a') as f:
+  with open('landfill-desc.txt', 'a') as f:
     f.write(desc + '\n')
 
 # COMPLETED
@@ -204,3 +197,31 @@ def save_description(desc):
 # wooden chopsticks
 
 # TO DO
+# plastic-backed paper
+# glass mirror
+# glass window
+# incandescent light bulb
+# juice foil liner box
+# soy milk foil liner box
+# mylar bag
+# potato chip bag
+# candy bar wrapper
+# balloon
+# pen
+# pencil
+# plastic bag
+# plastic wrapper
+# plastic film
+# biodegradable plastic
+# metal
+# fabric
+# rubber
+# rubber bands
+# six-pack ring holder
+# sponge
+# styrofoam
+# twwist tie
+# plywood
+# pressboard
+# painted wood
+# stained wood
