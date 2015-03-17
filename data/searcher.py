@@ -27,7 +27,7 @@ def search_flickr(query):
   photo_urls = []
 
   # parse photo data
-  for i in range(0, 2):
+  for i in range(0, 5):
     attributes = photos[0][i].attrib
     photo_urls.append('https://farm' + attributes['farm'] +
       '.staticflickr.com/' + attributes['server'] + '/' +
@@ -86,7 +86,7 @@ def get_description(token):
     return save_description(description.body['name'])
 
 def save_description(desc):
-  with open('landfill-desc.txt', 'a') as f:
+  with open('compost-desc.txt', 'a') as f:
     f.write(desc + '\n')
 
 # COMPLETED

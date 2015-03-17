@@ -4,14 +4,10 @@ wheat field
 wheat stalks
 brown pasta
 alphabet pasta
-blue ceramic mug
-white and blue floral ceramic coffee mug
 leaf latte art
 white tea cup and saucer
 stainless steel spoon
-long houses around garden painting
 white eggshell planter
-clear glass cup
 brown egg
 sunnyside up fried eggs
 green round fruit
@@ -20,10 +16,7 @@ red berries
 black berries
 yellow porcelain shell
 red raspberries
-white ceramic plate
 brown shell
-gray black lego character
-blue trash bin
 purple round fruit
 wine glasses
 square plastic food container
@@ -39,15 +32,7 @@ black handle steak knife
 marinated ribs
 barbecue spareribs
 crab claw
-asian temple
 fries and shrimp on plate
-black scania freight truck
-woman in hood photo
-blue and white freight truck
-white ceramic cup
-white and blue floral tea pot
-white ceramic cup
-blue ceramic tea pot
 Carrots Tomatoes Cucumber and Peppers
 green bell pepper
 red bell pepper
@@ -56,25 +41,17 @@ brown pizza box
 yellow and red pepperoni pizza
 pepperoni pizza slice
 pizza with cheese and tomato sauce
-White Square Table
 gloria joan's paper cup
+round white plate
 uccino brown cup
 starbucks christmas cups
-sailor's white and black hat
-round white plate
-women's pink t shirt
-cocktail time logo
 vanilla scoop ice cream
-female doll
-black white architectural photograph of square shack with metal window
 breyers double churn extra creamy mont chocolate chip ice cream
 brown wooden chopping board
 Angry Birds Paper Plates
 breakfast plate
 white red black traveling bunny plate
-green floral ceramic vase
 white pink floral bouquet
-men's navy blue shirt
 white and pink rose print
 white rolled napkins
 paper towel dispenser
@@ -83,15 +60,8 @@ square black wall-mounted paper towel dispenser
 white disposable food container
 brown pizza box
 Pizza Crust
-clear square gift bag with red bow
-men's red t shirt
-tissue plush toys
-mens red and black plaid shirt
-women's white shir
 red and beige labeled carton
 fresh milk stand
-white wood  stylized leaf figurine
-black and white cow print
 minute maid carton
 tropican orange cranberry
 tropicana lemonade
@@ -102,17 +72,9 @@ grey tree
 bare tree
 grey tree
 white food bowl
-bath scrubbers
-brush me
-brown paint brush
 yellow sunflower
-white calla lily illustration
 yellow mini flower cluster bouquet
 pink rose flower
-women's white stockings
-white green pink floral textile
-pink wrapped present
-pink gift box
 wheat field
 gray power poles and line
 green grass field
@@ -130,34 +92,19 @@ green tree
 blue star christmas decor
 green trees
 white cotton ball
-black cat
 white cotton plant
 gray panel
 white q tips
 wood q tips
 white clouds
 wood tongue depresser q tip
-women's black shirt
-women's white long sleeved shirt
 women's brown long hair
 human brown hair
-white fur coat
-women's black parka coat
-women's blue parka coat
-women's white parka coat
 blue green peacock feathers
 white feather
-black white face photography
 brown wooden crate
-blue and white toy jeep
 brown wooden table
 grey wooden crates
-black red face drawing
-brown tree painting
-black and white painting
-white and black flower painting
-black and white photo of woman
-color painting
 brown wooden fence
 gray concrete tunnel
 black brown and white wood
@@ -165,3 +112,49 @@ brown wooden chopstick
 white flower
 brown wooden chopsticks and red bowl
 papaya fruit
+meat display
+raw meat
+piece of meat
+brown white knit steak toy
+pretend meats
+orange fruit
+cooked steak
+brown tree trunk
+brown cooked steak
+brown grilled steak
+chicken leg bone
+red meat
+red bell pepper
+food scraps
+bread
+grains
+pasta
+coffee grounds
+paper filter
+dairy
+eggshell
+egg
+fruit pit
+fruit shell
+leftovers
+spoiled food
+meat
+bones
+seafood
+shellfish
+tea
+tea bag
+vegetable
+food soiled paper
+coffee filter
+greasy pizza boxe
+paper cup
+paper plate
+paper ice cream container
+paper bag
+napkin
+tissue
+towel
+paper take-out box
+waxy paper milk carton
+waxy paper juice cartons
