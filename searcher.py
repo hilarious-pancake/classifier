@@ -195,8 +195,16 @@ def save_description(desc):
 # waxed paper
 # wood
 # wooden chopsticks
-
-# TO DO
+# cat litter
+# ceramic dishware
+# ceramic glassware
+# clothing linen
+# rags
+# cigarette butt
+# dental floss
+# diaper
+# feminine hygiene product
+# foil-backed paper
 # plastic-backed paper
 # glass mirror
 # glass window
@@ -220,8 +228,11 @@ def save_description(desc):
 # six-pack ring holder
 # sponge
 # styrofoam
-# twwist tie
+# twist tie
 # plywood
 # pressboard
 # painted wood
 # stained wood
+
+# TO DO
+
