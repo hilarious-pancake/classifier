@@ -2,8 +2,8 @@
 
 import flickrapi, unirest, time
 
-api_key = u'bd357bbf22b783cd194d9585e495e0a4'
-api_secret = u'8be92d6e6304428a'
+api_key = u'key'
+api_secret = u'secret'
 
 flickr = flickrapi.FlickrAPI(api_key, api_secret)
 

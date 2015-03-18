@@ -6,7 +6,7 @@ a&w beer can
 canned beverage
 leklilz tall boy can
 mountain crest can
-canada dry california strawberry soda 12 oz
+canada dry california soda 12 oz
 silver plastic pack
 white rectangular box
 harviestoun brewery bottle cap
@@ -18,23 +18,23 @@ bottlecap folk art hinged box yellow black
 white red and black bottle cap
 bottlecap blue bud light
 paper plastic bottle
-red pull tab
+pull tab
 pull tab can
 silver pull tab
 jelly jar preserves canning clear
-red folgers can
+folgers can
 schloss fein herb can
 grey steel round container
 lyle's black treacle 454 g
 pork and beans can
 orange black and brown embossed design container with cover
-brown clay jar with lid
-brown porcelain container
-dark brown painted oblong vase with lid pottery
-brown printed vase jar
+clay jar with lid
+porcelain container
+dark painted oblong vase with lid pottery
+printed vase jar
 brown and grey urn
 white knitted jar sleeve
-brown clay pot
+clay pot
 white and pink floral can
 yellow and white floral container
 kilz original container
@@ -83,10 +83,9 @@ zacks soda
 pepsi plastic bottle
 yellow glass bottle
 samuel adams winter lager
-red plastic bucket
 green round plastic lid
 orange food container
-red plastic bucket
+plastic bucket
 orange plastic square case
 white and black canteen
 kfc container
@@ -106,14 +105,14 @@ stacked books
 developer network cd
 Don Color Red and White Store Sign
 purple flower
-red compact disc
+compact disc
 developer network cd
 black commodore cotv
 silver compact discs
 black coated wite
 chrome dotted tool
 cd collection broken
-brown paper envelope
+paper envelope
 transformation featuring elected officials and community leaders
 black passenger vehicle
 albums covers collage
@@ -133,8 +132,8 @@ blue compact disc
 orange compact disc case
 harry potter dvd
 hogwarts a history book
-red hogwarts a history book
-red plastic cd cases
+hogwarts a history book
+plastic cd cases
 blue disc
 black cap with coffee beans
 tin capped containers
@@ -144,20 +143,20 @@ green intermodal container
 Black Plastic Crates
 rilakkuma boxes
 red plastic crate
-smuckers strawberry jam jar
+smuckers jam jar
 red ruby bottles
 volvic drinking water bottle
 white feather necklace
-brown bottle corks
+bottle corks
 pink and white balloons
 blue seawater
 clear water
 cork stopper
-red thread roll
+thread roll
 white paper cup
 white plastic mug
-red and orange container set
-red round plates
+container set
+round plates
 yellow round plate
 pink and green floral round saucer
 white and green floral clear round glass plate
@@ -165,7 +164,7 @@ white plastic round container with print
 white plastic bucket
 red and white flower
 pink flowers
-brown flower pot
+flower pot
 yesil kopuk bottles
 blue plastic basket
 blue red and white feather figurine
@@ -174,20 +173,18 @@ yoplait original cup
 blue dipping sauce cup
 white pipe
 clear glass container
-red plastic picnic utensil carrier
+plastic picnic utensil carrier
 cardboard helmet
-brown cardboard mask
+cardboard mask
 general mills corn kix box
 quaker quisp crunchy corn cereal
-white egg
-white egg
 assorted envelopes
 spring bunny article
 magazine article
 assorted newspapers
 stack of newspaper
 illustration of large house
-brown papers
+papers
 shredded paper
 clear glass jar
 absolut vodka bottle
@@ -195,3 +192,4 @@ pink translucent carnival glass cookie jar
 clear wine glass
 clear shot glass
 coca cola classic can
+white paper egg holder
