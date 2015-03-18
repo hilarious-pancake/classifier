@@ -133,6 +133,7 @@ coffee grounds
 paper filter
 dairy
 eggshell
+egg shell
 egg
 fruit pit
 fruit shell
@@ -158,3 +159,6 @@ towel
 paper take-out box
 waxy paper milk carton
 waxy paper juice cartons
+brown egg shell
+orange carrots
+red strawberry
