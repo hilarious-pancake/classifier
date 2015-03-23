@@ -57,7 +57,6 @@ painting
 wooden planks
 hardwood floors
 ceramic tea cup
-ceramic tea cup
 plastic pipe
 pink smiley ceramic mug
 multicolored ceramic plate ornament
@@ -65,9 +64,7 @@ pink ceramic sugar condiment container
 ceramic container with cover
 blue ceramic urn with handles
 Round Ceramic Ground Coffee Canister
-ceramic cup
 ceramic mug
-Yellow Ceramic Coffee Mug
 ceramic vase
 multicolored textile
 boy's shorts
@@ -78,11 +75,11 @@ santa clothes
 throw pillow
 crochet owl handbag
 gray woven handbag
-blue crosshatch fabric
-yellow textile
-black pink and grey curtain
+crosshatch fabric
+textile
+curtain
 teapot ceramic with lid
-gray and silver floral textile
+floral textile
 leather
 beaded & sequined decor
 urn
@@ -90,3 +87,6 @@ textile
 stainless steel spoon
 stash cinnamon apple foil cover
 4 x 2 lego block
+ceramic plate
+cylinder
+steel thermos
