@@ -148,7 +148,7 @@ tea bag
 vegetable
 food soiled paper
 coffee filter
-greasy pizza boxe
+greasy pizza boxes
 paper cup
 paper plate
 paper ice cream container
@@ -162,5 +162,10 @@ waxy paper juice cartons
 brown egg shell
 orange carrots
 red strawberry
+rice
 white rice
-white stir fried rice
+stir fried rice
+table napkin
+disposable cup
+red and white flower
+pink flowers
