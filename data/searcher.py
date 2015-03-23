@@ -2,6 +2,7 @@
 
 import flickrapi, unirest, time
 
+# connect to flickr api
 api_key = u'key'
 api_secret = u'secret'
 
@@ -24,22 +25,25 @@ def search_flickr(query):
   # grab photo urls from flickr
   photos = flickr.photos.search(text=query, sort='relevance')
 
+  # initialize empty array to hold photo urls
   photo_urls = []
 
-  # parse photo data
+  # add first four photo urls to array
   for i in range(0, 5):
     attributes = photos[0][i].attrib
     photo_urls.append('https://farm' + attributes['farm'] +
       '.staticflickr.com/' + attributes['server'] + '/' +
       attributes['id'] + '_' + attributes['secret'] + '_m.jpg')
 
+  # read each image in array
   for url in photo_urls:
     read_image(url)
 
 def read_image(photo_url):
+  # post photo url to camfind api
   post_res = unirest.post("https://camfind.p.mashape.com/image_requests",
     headers = {
-      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
+      "X-Mashape-Key": "key",
       "Content-Type": "application/x-www-form-urlencoded",
       "Accept": "application/json"
     },
@@ -49,6 +53,7 @@ def read_image(photo_url):
     }
   )
   
+  # retrieve description for url
   return get_description(post_res.body['token'])
 
 def check_res(token):
@@ -56,7 +61,7 @@ def check_res(token):
   
   response = unirest.get("https://camfind.p.mashape.com/image_responses/" + token,
     headers = {
-      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
+      "X-Mashape-Key": "key",
       "Accept": "application/json"
     }
   )
@@ -64,175 +69,26 @@ def check_res(token):
   return response
 
 def get_description(token):
+  # it takes camfind up to 20s to return a result, so delay retrieval by 20s
   time.sleep(20)
   
-  description = unirest.get("https://camfind.p.mashape.com/image_responses/" + token,
-    headers = {
-      "X-Mashape-Key": "EPlpijnycCmshxK3kiQgglPopllsp1WWLaijsntHB14joITe8x",
-      "Accept": "application/json"
-    }
-  )
-
+  # retrieve description
   description = check_res(token)
 
+  # if description is unfinished, check the result again
   if not description.body.has_key('name'):
     description = check_res(token)
 
   print description.body
 
+  # if description was skipped, return 'skipped'
   if description.body.has_key('reason'):
     return 'skipped'
+  # else save the description 
   else:
     return save_description(description.body['name'])
 
 def save_description(desc):
+  # write descriptions to a specified file
   with open('compost-desc.txt', 'a') as f:
     f.write(desc + '\n')
-
-# COMPLETED
-# aluminum can
-# aluminum foil
-# aluminum tray
-# bottle cap
-# steel can lid
-# tin can lid
-# jar lid
-# paint can
-# spray can
-# steel can
-# tin can
-# plastic bottle
-# plastic bucket
-# CD
-# DVD
-# CDROM
-# CD case
-# DVD case
-# CDROM case
-# coffee cup lid
-# plastic container
-# clamshell
-# plastic cork
-# plastic cup
-# plastic plates
-# plastic flower pot
-# plastic tray
-# laundry detergent bottle
-# molded plastic packaging
-# toy
-# plastic tub
-# plastic lid
-# yogurt container
-# tupperware
-# plastic utensil
-# plastic bag
-# cardboard
-# cereal box
-# paperboard
-# computer paper
-# office paper
-# egg carton
-# envelope
-# mail
-# magazine
-# newspaper
-# packing paper
-# kraft paper
-# phonebook
-# sticky note
-# shredded paper
-# wrapping paper
-# glass bottle
-# glass jar
-# metal cap
-# metal lid
-#
-# bread
-# grains
-# pasta
-# coffee grounds
-# coffee filter
-# dairy
-# eggshells
-# eggs
-# fruit
-# fruit pits
-# fruit shells
-# leftovers
-# spoiled food
-# meat
-# meat bones
-# seafood
-# shellfish
-# tea
-# vegetable
-# pizza box
-# paper cup
-# paper plate
-# paper ice cream container
-# paper napkin
-# paper tissue
-# paper towel
-# paper take-out box
-# tissues
-# milk carton
-# juice carton
-# branches
-# brush
-# flowers
-# floral trimmings
-# grasses
-# weeds
-# leaves
-# tree trimmings
-# cotton balls
-# cotton swabs
-# hair
-# fur
-# feathers
-# vegetable wood crates
-# waxed cardboard
-# waxed paper
-# wood
-# wooden chopsticks
-# cat litter
-# ceramic dishware
-# ceramic glassware
-# clothing linen
-# rags
-# cigarette butt
-# dental floss
-# diaper
-# feminine hygiene product
-# foil-backed paper
-# plastic-backed paper
-# glass mirror
-# glass window
-# incandescent light bulb
-# juice foil liner box
-# soy milk foil liner box
-# mylar bag
-# potato chip bag
-# candy bar wrapper
-# balloon
-# pen
-# pencil
-# plastic bag
-# plastic wrapper
-# plastic film
-# biodegradable plastic
-# metal
-# fabric
-# rubber
-# rubber bands
-# six-pack ring holder
-# sponge
-# styrofoam
-# twist tie
-# plywood
-# pressboard
-# painted wood
-# stained wood
-
-# TO DO
-
