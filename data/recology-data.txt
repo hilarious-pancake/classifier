@@ -1,0 +1,147 @@
+----- RECYCLE -----
+aluminum can
+aluminum foil
+aluminum tray
+bottle cap
+steel can lid
+tin can lid
+jar lid
+paint can
+spray can
+steel can
+tin can
+plastic bottle
+plastic bucket
+CD
+DVD
+CDROM
+CD case
+DVD case
+CDROM case
+coffee cup lid
+plastic container
+clamshell
+plastic cork
+plastic cup
+plastic plates
+plastic flower pot
+plastic tray
+laundry detergent bottle
+molded plastic packaging
+toy
+plastic tub
+plastic lid
+yogurt container
+tupperware
+plastic utensil
+plastic bag
+cardboard
+cereal box
+paperboard
+computer paper
+office paper
+egg carton
+envelope
+mail
+magazine
+newspaper
+packing paper
+kraft paper
+phonebook
+sticky note
+shredded paper
+wrapping paper
+glass bottle
+glass jar
+metal cap
+metal lid
+
+----- COMPOST -----
+bread
+grains
+pasta
+coffee grounds
+coffee filter
+dairy
+eggshells
+eggs
+fruit
+fruit pits
+fruit shells
+leftovers
+spoiled food
+meat
+meat bones
+seafood
+shellfish
+tea
+vegetable
+pizza box
+paper cup
+paper plate
+paper ice cream container
+paper napkin
+paper tissue
+paper towel
+paper take-out box
+tissues
+milk carton
+juice carton
+branches
+brush
+flowers
+floral trimmings
+grasses
+weeds
+leaves
+tree trimmings
+cotton balls
+cotton swabs
+hair
+fur
+feathers
+vegetable wood crates
+waxed cardboard
+waxed paper
+wood
+wooden chopsticks
+
+----- LANDFILL -----
+cat litter
+ceramic dishware
+ceramic glassware
+clothing linen
+rags
+cigarette butt
+dental floss
+diaper
+feminine hygiene product
+foil-backed paper
+plastic-backed paper
+glass mirror
+glass window
+incandescent light bulb
+juice foil liner box
+soy milk foil liner box
+mylar bag
+potato chip bag
+candy bar wrapper
+balloon
+pen
+pencil
+plastic bag
+plastic wrapper
+plastic film
+biodegradable plastic
+metal
+fabric
+rubber
+rubber bands
+six-pack ring holder
+sponge
+styrofoam
+twist tie
+plywood
+pressboard
+painted wood
+stained wood
